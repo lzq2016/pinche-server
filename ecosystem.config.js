@@ -28,8 +28,7 @@ module.exports = {
       host: '47.94.215.254',
       ref: 'origin/master',
       repo: 'git@github.com:lzq2016/pinche-server.git',
-      path: '/home/lzq/pincheServer/production',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js --env production"'
+      path: '/home/lzq/pincheServer/production'
     },
     dev: {
       user: 'node',

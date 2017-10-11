@@ -29,7 +29,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:lzq2016/pinche-server.git',
       path: '/home/lzq/pincheServer/production',
-      'post-deploy': ''
+      'post-deploy': 'pm2 list'
     },
     dev: {
       user: 'node',

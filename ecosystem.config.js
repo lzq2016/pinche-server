@@ -29,7 +29,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:lzq2016/pinche-server.git',
       path: '/home/lzq/pincheServer/production',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.json --env production"'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js --env production"'
     },
     dev: {
       user: 'node',

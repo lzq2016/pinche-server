@@ -28,7 +28,8 @@ module.exports = {
       host: '47.94.215.254',
       ref: 'origin/master',
       repo: 'git@github.com:lzq2016/pinche-server.git',
-      path: '/home/lzq/pincheServer/production'
+      path: '/home/lzq/pincheServer/production',
+      'post-deploy': ''
     },
     dev: {
       user: 'node',
